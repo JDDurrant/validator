@@ -42,6 +42,21 @@ public class Prompt {
         slimPrompt(message);
         String time = scan.nextLine();
 
+        String[] hoursMinutes = time.split(":", 2);
+
+        if(
+            hoursMinutes[0].startsWith("-") ||
+            hoursMinutes[1].startsWith("-")
+        ) {
+            System.out.println("Time must be a positive number.");
+            return getTime(message);
+        }
+
+        if(Integer.parseInt(hoursMinutes[1]) >= 60) {
+            System.out.println("There are only 60 minutes in an hour.");
+            return getTime(message);
+        }
+
         return format.parse(time);
     }
 

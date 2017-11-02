@@ -1,9 +1,12 @@
+# Validator
+Coursework for my QA Apprenticeships Java course
+
 NOTE: I didn't write the following specification. It was given to me for the purpose of assessing my performance on a Java course.
 
-# Project Specification
+## Project Specification
 Write two validation applications.
 
-## String Validator
+### String Validator
 Taking input from the console in the form of a scanner.
 
 The user types in two strings.
@@ -16,11 +19,11 @@ Your application needs to display a message when:
 3. The source string ends with the search string
 4. The source string contains the search string
 
-The documentation on String is available at [this URL](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
+[Java SE 7 String documentation](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
 
 Suggested source strings: "tomorrow", "toto", "timbuktu", "the", "hello", "heat", "carcas"
 
-## Time Validator:
+### Time Validator
 The application adds together two inputs of hours and minutes.
 
 Your application should check that the hours are in the range 0-23 and the minutes are in the range 0-59.
@@ -33,7 +36,7 @@ Hint: The easiest way to handle values over 24 hours is to convert all values to
 
 The values should be displayed in a 24 hour format.
 
-### Optional task:
+#### Optional task:
 
 Attempt the same as above but this time subtracting one value from another.
 

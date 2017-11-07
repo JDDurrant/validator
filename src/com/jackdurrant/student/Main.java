@@ -9,11 +9,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student harry = new Student(501191, "Harry Potter", 19, "+44 7700900587", false);
-        Student dean = new Student(501192, "Dean Thomas", 21, "+44 7700900695", true);
-        Student hermione = new Student(501193, "Hermione Granger", 20, "+44 7700900598", true);
-        Student ron = new Student(501194, "Ron Weasley", 20, "+44 7700900192", true);
-        Student ginny = new Student(501195, "Ginny Weasley", 19, "+44 7700900193", false);
+        Student harry = new Student("Harry Potter", 19, "+44 7700900587", false);
+        Student dean = new Student("Dean Thomas", 21, "+44 7700900695", false);
+        Student hermione = new Student("Hermione Granger", 20, "+44 7700900598", true);
+        Student ron = new Student("Ron Weasley", 20, "+44 7700900192", true);
+        Student ginny = new Student("Ginny Weasley", 19, "+44 7700900193", false);
 
         classes[0] = harry;
         classes[1] = dean;
